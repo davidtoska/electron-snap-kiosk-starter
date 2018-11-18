@@ -1,0 +1,31 @@
+{
+  "name": "electron-snap-kiosk-starter",
+  "version": "0.0.1",
+  "description": "Simple starter project for building an electrion kiosk application running on ubuntu core",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build --linux snap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidtoska/electron-snap-kiosk-starter"
+  },
+  "keywords": [
+    "Snap",
+    "Snapcraft",
+    "Electron",
+    "Kiosk",
+    "Ubuntu-core"
+  ],
+  "author": "David Toska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidtoska/electron-snap-kiosk-starter/issues"
+  },
+  "homepage": "https://github.com/davidtoska/electron-snap-kiosk-starter#readme",
+  "devDependencies": {
+    "electron": "^3.0.9",
+    "electron-builder": "^20.36.2"
+  }
+}
